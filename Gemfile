@@ -1,10 +1,8 @@
 source 'https://rubygems.org'
-ruby '2.2.2'
 
-gem 'resque'
-gem 'json'
-gem 'foreman'
-gem 'rest-client'
-gem 'logger'
-
-
+gem 'foreman', '~> 0.85.0'
+gem 'json', '~> 2.1'
+gem 'logger', '1.2.8.1'
+gem 'resque', '~> 1.27', '>= 1.27.4'
+gem 'rest-client', '~> 2.0', '>= 2.0.2'
+gem 'rake', '~> 11.2', '>= 11.2.2'
